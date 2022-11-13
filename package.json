@@ -124,7 +124,7 @@
     "@meltwater/mlabs-logger": "^9.1.1",
     "@meltwater/phi": "^5.0.0",
     "cache-manager": "^3.1.0",
-    "rxjs": "^7.5.4",
+    "rxjs": "^7.5.7",
     "uuid": "^8.1.0"
   },
   "devDependencies": {
