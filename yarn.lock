@@ -1376,10 +1376,10 @@ async-settle@^1.0.0:
   dependencies:
     async-done "^1.2.2"
 
-async@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/async/-/async-3.2.0.tgz#b3a2685c5ebb641d3de02d161002c60fc9f85720"
-  integrity sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==
+async@3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
+  integrity sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g==
 
 atob@^2.1.2:
   version "2.1.2"
@@ -1643,13 +1643,13 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
-cache-manager@^3.1.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/cache-manager/-/cache-manager-3.4.0.tgz#6f352fa1ee95709878e3474e9ed8489ef751bba3"
-  integrity sha512-+WtL5sKHGngtnzTHNFA6+gC0wjpAAUmwmprXOSeaCBOkohM8Nh7GvV8fC90NFrDh7m3i87AshGd39/yYbWNtWA==
+cache-manager@^3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/cache-manager/-/cache-manager-3.6.3.tgz#48052f3cf9ee4bac1cbb6adeedd69faf9da4ec04"
+  integrity sha512-dS4DnV6c6cQcVH5OxzIU1XZaACXwvVIiUPkFytnRmLOACuBGv3GQgRQ1RJGRRw4/9DF14ZK2RFlZu1TUgDniMg==
   dependencies:
-    async "^3.2.0"
-    lodash "^4.17.20"
+    async "3.2.3"
+    lodash.clonedeep "^4.5.0"
     lru-cache "6.0.0"
 
 cacheable-request@^6.0.0:
@@ -4384,6 +4384,11 @@ locate-path@^5.0.0:
   integrity sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
   dependencies:
     p-locate "^4.1.0"
+
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==
 
 lodash.flattendeep@^4.4.0:
   version "4.4.0"
