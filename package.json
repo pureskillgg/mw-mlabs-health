@@ -1,5 +1,5 @@
 {
-  "name": "@meltwater/mlabs-health",
+  "name": "@pureskillgg/mlabs-health",
   "version": "2.1.0",
   "description": "Health monitor for microservices.",
   "type": "module",
@@ -12,15 +12,16 @@
   "sideEffects": false,
   "keywords": [
     "meltwater",
+    "pureskillgg",
     "node"
   ],
-  "homepage": "https://github.com/meltwater/mlabs-health",
-  "bugs": "https://github.com/meltwater/mlabs-health/issues",
-  "repository": "meltwater/mlabs-health",
+  "homepage": "https://github.com/pureskillgg/mw-mlabs-health",
+  "bugs": "https://github.com/pureskillgg/mw-mlabs-health/issues",
+  "repository": "pureskillgg/mw-mlabs-health",
   "license": "MIT",
   "author": {
     "name": "Evan Sosenko",
-    "email": "evan.sosenko@meltwater.com"
+    "email": "evan@pureskill.gg"
   },
   "files": [
     "yarn.lock",
@@ -121,8 +122,8 @@
     "standard": "^16.0.2"
   },
   "dependencies": {
-    "@meltwater/mlabs-logger": "^9.1.1",
-    "@meltwater/phi": "^5.0.0",
+    "@pureskillgg/mlabs-logger": "^9.1.2",
+    "@pureskillgg/phi": "^5.0.2",
     "cache-manager": "^3.1.0",
     "rxjs": "^7.5.4",
     "uuid": "^8.1.0"
@@ -132,7 +133,7 @@
     "@babel/core": "^7.0.1",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@meltwater/examplr": "^7.0.0",
+    "@pureskillgg/examplr": "^7.0.0",
     "ava": "^3.3.0",
     "babel-plugin-add-import-extension": "^1.4.3",
     "del-cli": "^3.0.0",

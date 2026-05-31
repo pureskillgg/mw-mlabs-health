@@ -894,35 +894,6 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
-"@meltwater/examplr@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@meltwater/examplr/-/examplr-7.0.0.tgz#5d72f9f7771a8c4bc453126eb60dec09264d3c61"
-  integrity sha512-4eDgjDzokXYUsoSDu6vNKlbXRyQAD3uO4OtOCSBI6TjorktIPAiMAtFXN++PSfHs81aofLYHZKVAHMpxKab+fw==
-  dependencies:
-    bunyan-formatter "^1.0.0"
-    change-case "^4.1.1"
-    pino "^7.6.5"
-    pino-pretty "^7.5.1"
-    uuid "^8.3.2"
-
-"@meltwater/mlabs-logger@^9.1.1":
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/@meltwater/mlabs-logger/-/mlabs-logger-9.1.1.tgz#80df130e6dfdfd3fee016b70e49998fb23355804"
-  integrity sha512-+WymJLKfqoZw+ZOmdj2ofDmQmRVJNRsFesM3xn2QhT0FBN4YEk5dmaEKdpRcI5gwyn8MfYHCjOnUHzXYT83SiA==
-  dependencies:
-    "@meltwater/examplr" "^7.0.0"
-    bunyan-formatter "^1.0.0"
-    debug "^4.0.1"
-    pino "^7.6.5"
-
-"@meltwater/phi@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@meltwater/phi/-/phi-5.0.0.tgz#3829e0ff01a163022d58c050f3299f5a21790ffb"
-  integrity sha512-rrgKO6GmdK3LRrVT4eGhlNAB/k+WN/V3AEDgISAOoS7c5QHtBRxtzDl3hdvUUKh0bVSrDTZdHCW8JSZiLP7vow==
-  dependencies:
-    ramda "~0.28.0"
-    ramda-adjunct "~3.0.0"
-
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents":
   version "2.1.8-no-fsevents"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.tgz#da7c3996b8e6e19ebd14d82eaced2313e7769f9b"
@@ -960,6 +931,35 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
+
+"@pureskillgg/examplr@^7.0.0":
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@pureskillgg/examplr/-/examplr-7.0.2.tgz#7178715ec0b300ad184651d2299336954adf6f1b"
+  integrity sha512-0XJ6G407rqZ4DfRuPxE/tMHUqqtv2uCNkUSWaF+e9rxLiTn9IwsfofpbkOPEfryxvu1RDptjzIvRAmT9+K4b/A==
+  dependencies:
+    bunyan-formatter "^1.0.0"
+    change-case "^4.1.1"
+    pino "^7.6.5"
+    pino-pretty "^7.5.1"
+    uuid "^8.3.2"
+
+"@pureskillgg/mlabs-logger@^9.1.2":
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/@pureskillgg/mlabs-logger/-/mlabs-logger-9.1.2.tgz#a2bd4b1514d9e93d63ecfab6130d61803cc72011"
+  integrity sha512-B4SbphPmsytanvB1vNd2DQmC+dI47r77B84YVdtrRI5CVCuqmC5zEk4wHAAtan6JxWNuhpj28EyMRDpvRxQI+g==
+  dependencies:
+    "@pureskillgg/examplr" "^7.0.0"
+    bunyan-formatter "^1.0.0"
+    debug "^4.0.1"
+    pino "^7.6.5"
+
+"@pureskillgg/phi@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@pureskillgg/phi/-/phi-5.0.2.tgz#492dee58388c8e56f9f0af42506ee828fd6f45b2"
+  integrity sha512-yEN0Ke9S28gde+t5x+EH58ASDah4G+EPf8oVyLXBtYHJCBLLt6/LJgNWZRYEge1dozUhg1AiLWB+l98pFi3Shw==
+  dependencies:
+    ramda "~0.28.0"
+    ramda-adjunct "~3.0.0"
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"

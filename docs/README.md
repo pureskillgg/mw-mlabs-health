@@ -13,7 +13,7 @@ Every function described above is a top-level export.
 You can import any of them like this:
 
 ```js
-import { createHealthMonitor } from '@meltwater/mlabs-health'
+import { createHealthMonitor } from '@pureskillgg/mlabs-health'
 ```
 
 ---
