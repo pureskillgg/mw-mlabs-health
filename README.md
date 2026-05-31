@@ -1,10 +1,9 @@
 # Health Monitor
 
-[![npm](https://img.shields.io/npm/v/@meltwater/mlabs-health.svg)](https://www.npmjs.com/package/@meltwater/mlabs-health)
-[![github](https://img.shields.io/badge/github-repo-blue.svg)](https://github.com/meltwater/mlabs-health)
-[![docs](https://img.shields.io/badge/docs-master-green.svg)](https://github.com/meltwater/mlabs-health/tree/master/docs)
-[![Codecov](https://img.shields.io/codecov/c/github/meltwater/mlabs-health.svg)](https://codecov.io/gh/meltwater/mlabs-health)
-[![CircleCI](https://img.shields.io/circleci/project/github/meltwater/mlabs-health.svg)](https://circleci.com/gh/meltwater/mlabs-health)
+[![npm](https://img.shields.io/npm/v/@pureskillgg/mlabs-health.svg)](https://www.npmjs.com/package/@pureskillgg/mlabs-health)
+[![github](https://img.shields.io/badge/github-repo-blue.svg)](https://github.com/pureskillgg/mw-mlabs-health)
+[![docs](https://img.shields.io/badge/docs-master-green.svg)](https://github.com/pureskillgg/mw-mlabs-health/tree/master/docs)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/pureskillgg/mw-mlabs-health/main.yml)](https://github.com/pureskillgg/mw-mlabs-health/actions/workflows/main.yml)
 
 Health monitor for Node.js microservices.
 
@@ -23,13 +22,13 @@ or return (resolve) `false` otherwise.
 Add this as a dependency to your project using [npm] with
 
 ```
-$ npm install @meltwater/mlabs-health
+$ npm install @pureskillgg/mlabs-health
 ```
 
 or using [Yarn] with
 
 ```
-$ yarn add @meltwater/mlabs-health
+$ yarn add @pureskillgg/mlabs-health
 ```
 
 [npm]: https://www.npmjs.com/
@@ -42,7 +41,7 @@ $ yarn add @meltwater/mlabs-health
 Create a health monitor from any supported type,
 
 ```js
-import { createHealthMonitor  } from '@meltwater/mlabs-health'
+import { createHealthMonitor  } from '@pureskillgg/mlabs-health'
 
 const monitor = createHealthMonitor({
   foo: x => x,
@@ -65,7 +64,7 @@ logStatus().catch(err => { console.log(err) })
 ## Development Quickstart
 
 ```
-$ git clone https://github.com/meltwater/mlabs-health.git
+$ git clone https://github.com/pureskillgg/mw-mlabs-health.git
 $ cd mlabs-health
 $ nvm install
 $ yarn
@@ -86,10 +85,10 @@ The [mlabs-health source] is hosted on GitHub.
 Clone the project with
 
 ```
-$ git clone git@github.com:meltwater/mlabs-health.git
+$ git clone git@github.com:pureskillgg/mw-mlabs-health.git
 ```
 
-[mlabs-health source]: https://github.com/meltwater/mlabs-health
+[mlabs-health source]: https://github.com/pureskillgg/mw-mlabs-health
 
 ### Requirements
 
@@ -120,20 +119,14 @@ $ yarn
 [npm]: https://www.npmjs.com/
 [nvm]: https://github.com/creationix/nvm
 
-#### CircleCI
+#### GitHub Actions
 
-_CircleCI should already be configured: this section is for reference only._
+The following repository secrets must be set:
 
-The following environment variables must be set on [CircleCI]:
-
-- `NPM_TOKEN`: npm token for installing and publishing packages.
-- `NPM_TEAM`: npm team to grant read-only package access
-  (format `org:team`, optional).
-- `CODECOV_TOKEN`: Codecov token for uploading coverage reports (optional).
-
-These may be set manually or by running the script `./.circleci/envvars.sh`.
-
-[CircleCI]: https://circleci.com/
+- `NPM_TOKEN`: npm token for publishing packages.
+- `GH_USER` / `GH_TOKEN`: GitHub credentials for pushing version commits.
+- `GIT_USER_NAME` / `GIT_USER_EMAIL`: Git identity for version commits.
+- `GPG_PRIVATE_KEY` / `GPG_PASSPHRASE`: GPG key for signing version tags.
 
 ### Development tasks
 
@@ -158,7 +151,7 @@ $ yarn run dist
 Release a new version using [`npm version`][npm version].
 This will run all tests, update the version number,
 create and push a tagged commit,
-and trigger CircleCI to publish the new version to npm.
+and trigger GitHub Actions to publish the new version to npm.
 
 - **Update the CHANGELOG before each new release after version 1.**
 - New versions are released when the commit message is a valid version number.

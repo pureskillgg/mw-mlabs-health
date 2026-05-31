@@ -1,4 +1,4 @@
-import { sleeP } from '@meltwater/phi'
+import { sleeP } from '@pureskillgg/phi'
 
 import { createHealthCheck } from '../index.js'
 
