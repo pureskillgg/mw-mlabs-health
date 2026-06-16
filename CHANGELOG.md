@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.1.1] / 2026-05-31
+
+### Changed
+
+- Migrate from Meltwater to PureSkill.gg.
+- Update GitHub Actions workflows and dependencies.
+
 ## [2.1.0] / 2022-02-15
 
 ### Changed
@@ -105,7 +112,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 [makenew-node-lib]: https://github.com/meltwater/makenew-node-lib
 
-[Unreleased]: https://github.com/pureskillgg/mw-mlabs-health/compare/v2.1.0...HEAD
+[Unreleased]: https://github.com/pureskillgg/mw-mlabs-health/compare/v2.1.1...HEAD
+[2.1.1]: https://github.com/pureskillgg/mw-mlabs-health/compare/v2.1.0...v2.1.1
 [2.1.0]: https://github.com/pureskillgg/mw-mlabs-health/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/pureskillgg/mw-mlabs-health/compare/v1.5.1...v2.0.0
 [1.5.1]: https://github.com/pureskillgg/mw-mlabs-health/compare/v1.5.0...v1.5.1
