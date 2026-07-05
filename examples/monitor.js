@@ -13,7 +13,7 @@ export default ({ log }) =>
     await foo(true)
 
     let n = 0
-    while (n < parseInt(bars)) {
+    while (n < parseInt(bars, 10)) {
       await bar(true)
       n++
     }
